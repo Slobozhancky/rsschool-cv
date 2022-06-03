@@ -2,14 +2,20 @@
 # Slobodiniuk Illia
 *****
 ### My contacts:
-    + **discord**: Slobozhancky#4049
-    + **telegram**: @slobozhancky
-    + **github**: github.com/Slobozhancky
+    * **discord**: Slobozhancky#4049
+    * **telegram**: @slobozhancky
+    * **github**: github.com/Slobozhancky
 ****
 ### About me:
 Web developer. 
+
+
 **University**:Previously, he graduated from the Civil Engineering Academy, in the direction of: engineer of building structures. 
+
+
 **My hobbies**: I like to cook, run, read books, spend time in pleasant company.
+
+
 **My strengths**: 
     + Sociability
     + Perfectionism
