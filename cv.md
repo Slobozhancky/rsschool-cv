@@ -2,26 +2,37 @@
 # Slobodiniuk Illia
 *****
 ### My contacts:
-    * **discord**: Slobozhancky#4049
-    * **telegram**: @slobozhancky
-    * **github**: github.com/Slobozhancky
+* **discord**: Slobozhancky#4049
+* **telegram**: @slobozhancky
+* **github**: github.com/Slobozhancky
 ****
 ### About me:
-Web developer. 
 
-
-**University**:Previously, he graduated from the Civil Engineering Academy, in the direction of: engineer of building structures. 
-
+**University**: Previously, he graduated from the Civil Engineering Academy, in the direction of: engineer of building structures. 
 
 **My hobbies**: I like to cook, run, read books, spend time in pleasant company.
 
-
 **My strengths**: 
-    + Sociability
-    + Perfectionism
-    + Punctuality
-    + Ability to accept criticism
+* Sociability
+* Perfectionism
+* Punctuality
+* Ability to accept criticism
 ****
 ### Work experience:
  * 04.2019 - 02.2020 - **WebOsnova**: layout of online stores
  * 04.2020 - 10.2021 - **MonoBank**: banking customer support
+ ****
+ ### Skills: 
+ * HTML
+ * CSS
+ * Java (basic)
+ * JavaScript (basic)
+ ****
+ ### Code Example:
+ [**All tasks in CodeWar profile**](https://www.codewars.com/users/Slobozhancky "CodeWar profile")
+
+ ```function even_or_odd(number) {
+  let result = number % 2 == 0 ? "Even" : "Odd";
+  return result;
+}```
+****
