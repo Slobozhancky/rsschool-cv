@@ -7,7 +7,6 @@
 * **github**: github.com/Slobozhancky
 ****
 ### About me:
-
 **University**: Previously, he graduated from the Civil Engineering Academy, in the direction of: engineer of building structures. 
 
 **My hobbies**: I like to cook, run, read books, spend time in pleasant company.
@@ -35,7 +34,7 @@
 * Ukrainian and Russian  (native speaker)
 * English (B1)
 ****
- ### Code Example:
+### Code Example:
  [**All tasks in CodeWar profile**](https://www.codewars.com/users/Slobozhancky "CodeWar profile")
 
  ```
