@@ -17,6 +17,9 @@
 * Perfectionism
 * Punctuality
 * Ability to accept criticism
+
+**Courses**: 
+* Dnipro, LevelUp, course: Frontend
 ****
 ### Work experience:
  * 04.2019 - 02.2020 - **WebOsnova**: layout of online stores
@@ -28,11 +31,16 @@
  * Java (basic)
  * JavaScript (basic)
  ****
+### Languages:
+* Ukrainian and Russian  (native speaker)
+* English (B1)
+****
  ### Code Example:
  [**All tasks in CodeWar profile**](https://www.codewars.com/users/Slobozhancky "CodeWar profile")
 
- ```function even_or_odd(number) {
-  let result = number % 2 == 0 ? "Even" : "Odd";
-  return result;
+ ```
+function even_or_odd(number) {
+    let result = number % 2 == 0 ? "Even" : "Odd";
+    return result;
 }```
-****
+
