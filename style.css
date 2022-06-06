@@ -1,3 +1,118 @@
-h1 {
-    color: green;
+:root {
+    --grey: #E4E6E7;
+    --aquamarine: #C0D8DE;
+    --pre-dark: #242424;
+    --light-grey: #666666;
+}
+
+.container {
+    display: flex;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+body {
+    color: var(--pre-dark);
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+}
+
+aside {
+    width: 40vw;
+    height: 100vh;
+    background-color: var(--aquamarine);
+}
+
+aside .my-info-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+    text-align: center;
+}
+
+aside .my-info-wrapper h1 {
+    font-size: 50px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+aside .my-info-wrapper .surname-mod {
+    color: var(--light-grey);
+    font-weight: 300;
+}
+
+aside .my-info-wrapper p { 
+    font-size: 24px;
+    color: var(--light-grey);
+    text-transform: uppercase;
+}
+
+aside .my-info-wrapper .img-wrap {
+    width: 370px;
+    height: 370px;
+    border-radius: 50%;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+.content-wrapper{
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--grey);
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+header nav {
+    width: 400px;
+    height: 100px;
+    background-color: var(--aquamarine);
+    position: relative;
+}
+
+header nav::before {
+    content: "";
+    width: 0;
+	height: 0;
+	border-top: 100px solid var(--aquamarine); 
+	border-left: 80px solid transparent;
+    position: absolute;
+    bottom: 0;
+    left: -80px;
+}
+
+header nav::after {
+    content: "";
+    width: 0;
+	height: 0;
+	border-top: 100px solid var(--aquamarine); 
+	border-right: 80px solid transparent;
+    position: absolute;
+    bottom: 0;
+    right: -80px;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 100px ;
+}
+
+main {
+
 }
