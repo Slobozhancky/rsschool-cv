@@ -76,6 +76,7 @@ img {
 header {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 header nav {
@@ -109,8 +110,28 @@ header nav::after {
 
 header nav ul {
     display: flex;
-    justify-content: space-between;
-    gap: 100px ;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 100%;
+    padding: 10px;
+}
+
+header nav ul li {
+    padding: 0 40px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: var(--pre-dark);
+    font-size: 20px;
+    border-bottom: 0px solid var(--pre-dark);
+}
+
+header nav ul li a:hover {
+    color: var(--pre-dark);
+    transition: 1s ease;
+    border-bottom: 1px solid var(--pre-dark);
 }
 
 main {
