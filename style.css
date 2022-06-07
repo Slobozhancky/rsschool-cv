@@ -309,3 +309,25 @@ main section .block-info .year {
 main section .block-info .description {
     margin: 15px auto;
 }
+
+main .professional-skills {
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+main .professional-skills .wrapper {
+    
+}
+
+main .professional-skills .skill-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+}
+
+main .professional-skills .skill-wrap .level {
+    width: 200px;
+    height: 10px;
+    background-color: #242424;
+}
