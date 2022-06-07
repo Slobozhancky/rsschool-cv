@@ -23,7 +23,6 @@ body {
 
 aside {
     width: 40vw;
-    height: 100%;
     background-color: var(--aquamarine);
     padding: 40px;
 }
@@ -140,7 +139,7 @@ aside .contacts .contacts-list li a:hover::after {
 }
 
 aside .personal-skills .skills-list-wrapper {
-    width: 80%;
+    width: 100%;
 }
 
 aside .personal-skills .skills-list-wrapper div {
@@ -267,5 +266,46 @@ header nav ul .text-mod:hover::after {
 }
 
 main {
+    padding: 40px;
+}
 
+main section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+main h2 {
+    width: 90%;
+    background-color: var(--pre-dark);
+    padding: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 700;
+}
+
+main section .block-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10px 20px 10px;
+}
+
+main section .block-info h3 {
+    text-transform: uppercase;
+    font-weight: 700;
+    margin: 20px auto 5px;
+}
+
+main section .block-info .year {
+    color: #999999;
+    font-weight: 700;
+    margin: 5px auto;
+}
+
+main section .block-info .description {
+    margin: 15px auto;
 }
