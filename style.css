@@ -25,13 +25,14 @@ aside {
     width: 40vw;
     height: 100vh;
     background-color: var(--aquamarine);
+    padding: 40px;
 }
 
 aside .my-info-wrapper {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 40px;
+    margin: 40px 0;
     text-align: center;
 }
 
@@ -65,6 +66,21 @@ aside .my-info-wrapper .img-wrap img {
     margin: 0 auto;
     border-radius: 50%;
 }
+
+.bio h3, .contacts h3, .personal-skills h3 {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 30px;
+    text-align: center; 
+}
+
+.bio, .contacts , .personal-skills {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
 
 .content-wrapper{
     width: 60vw;
