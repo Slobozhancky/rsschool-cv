@@ -327,6 +327,10 @@ main .professional-skills {
     margin-bottom: 0;
 }
 
+main .professional-skills .skill-wrap .skill-name {
+    text-transform: uppercase;
+}
+
 main .professional-skills .skill-wrap {
     display: flex;
     align-items: center;
@@ -338,7 +342,6 @@ main .professional-skills .skill-wrap {
 main .professional-skills .skill-wrap .level::-webkit-progress-bar {
     background-color: var(--grey);
     border-radius: 2px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
 }
 
 main .professional-skills .skill-wrap .level::-webkit-progress-value {
@@ -351,4 +354,17 @@ main .professional-skills .skill-wrap .level {
     position: relative;
     border: 1px solid var(--light-grey);
     margin-left: 10px;
+}
+
+main .code-examples code {
+    /* white-space: pre; */
+    width: 90%;
+    padding: 20px;
+}
+
+main .code-examples code {
+    border: 1px solid var(--light-grey);
+    background-color: #fff;
+    border-radius: 5px;
+    margin-top: 10px;
 }
