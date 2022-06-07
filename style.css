@@ -14,7 +14,7 @@
 
 body {
     color: var(--pre-dark);
-    font-size: 16px;
+    font-size: 20px;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     display: flex;
@@ -23,7 +23,7 @@ body {
 
 aside {
     width: 40vw;
-    height: 100vh;
+    height: 100%;
     background-color: var(--aquamarine);
     padding: 40px;
 }
@@ -67,7 +67,14 @@ aside .my-info-wrapper .img-wrap img {
     border-radius: 50%;
 }
 
-.bio h3, .contacts h3, .personal-skills h3 {
+aside .bio, .contacts , .personal-skills {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+aside .bio h3, .contacts h3, .personal-skills h3 {
     text-transform: uppercase;
     font-weight: 700;
     font-size: 30px;
@@ -75,11 +82,68 @@ aside .my-info-wrapper .img-wrap img {
     text-align: center; 
 }
 
-.bio, .contacts , .personal-skills {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
+aside .bio h3, .contacts h3, .personal-skills h3 {
+    margin-bottom: 30px;
 }
+
+.personal-skills h3 {
+    margin-bottom: 0;
+}
+
+.bio .separator, .contacts .separator {
+    width: 80%;
+    height: 2px;
+    background-color: var(--pre-dark);
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+aside .bio p {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+aside .contacts img {
+    width: 30px;
+}
+
+aside .contacts .contacts-list {
+    width: 100%;
+}
+
+aside .contacts .contacts-list li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+aside .contacts .contacts-list li img {
+    margin-right: 10px;
+}
+
+aside .contacts .contacts-list li a {
+    margin-left: 10px;
+    text-decoration: none;
+    color: var(--light-grey);
+    position: relative;
+}
+
+aside .contacts .contacts-list li a:after {
+    content: "";
+    width: 0%;
+    height: 2px;
+    background-color: var(--pre-dark);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+} 
+
+aside .contacts .contacts-list li a:hover::after {
+    width: 100%;
+    transition: 500ms ease;
+}
+
+
 
 
 .content-wrapper{
