@@ -316,18 +316,39 @@ main .professional-skills {
 }
 
 main .professional-skills .wrapper {
-    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 90%;
+    padding: 20px 0;
+}
+
+main .professional-skills {
+    margin-bottom: 0;
 }
 
 main .professional-skills .skill-wrap {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 50%;
+    width: 48%;
+    margin: 15px 0;
+}
+
+main .professional-skills .skill-wrap .level::-webkit-progress-bar {
+    background-color: var(--grey);
+    border-radius: 2px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+}
+
+main .professional-skills .skill-wrap .level::-webkit-progress-value {
+    background-color: var(--pre-dark);
 }
 
 main .professional-skills .skill-wrap .level {
-    width: 200px;
-    height: 10px;
-    background-color: #242424;
+    max-width: 150px;
+    height: 13px;
+    position: relative;
+    border: 1px solid var(--light-grey);
+    margin-left: 10px;
 }
