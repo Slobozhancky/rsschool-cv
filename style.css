@@ -36,7 +36,7 @@ aside .my-info-wrapper {
 }
 
 aside .my-info-wrapper h1 {
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 700;
     text-transform: uppercase;
 }
@@ -47,18 +47,18 @@ aside .my-info-wrapper .surname-mod {
 }
 
 aside .my-info-wrapper p { 
-    font-size: 24px;
+    font-size: 20px;
     color: var(--light-grey);
     text-transform: uppercase;
 }
 
 aside .my-info-wrapper .img-wrap {
-    width: 370px;
-    height: 370px;
+    width: 300px;
+    height: 300px;
     border-radius: 50%;
 }
 
-img {
+aside .my-info-wrapper .img-wrap img {
     max-width: 100%;
     display: block;
     height: auto;
@@ -118,10 +118,22 @@ header nav ul {
 }
 
 header nav ul li {
-    padding: 0 40px;
+    display: flex;
+    align-items: center;
+    padding: 0 30px;
+}
+
+header nav ul .icon {
+    width: 30px;
+}
+
+header nav ul li a .icon {
+    margin-right: 10px;
 }
 
 header nav ul li a {
+    display: flex;
+    align-items: center;
     text-decoration: none;
     color: var(--pre-dark);
     font-size: 20px;
@@ -131,7 +143,25 @@ header nav ul li a {
 header nav ul li a:hover {
     color: var(--pre-dark);
     transition: 1s ease;
-    border-bottom: 1px solid var(--pre-dark);
+}
+
+header nav ul .text-mod {
+    position: relative;
+}
+
+header nav ul .text-mod::after {
+    content: "";
+    width: 0%;
+    height: 2px;
+    background-color: var(--pre-dark);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+} 
+
+header nav ul .text-mod:hover::after {
+    width: 100%;
+    transition: 500ms ease;
 }
 
 main {
