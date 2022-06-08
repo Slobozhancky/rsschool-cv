@@ -16,13 +16,15 @@
 
     <div class="container">
         <aside>
+            <header>
+                <h1>Illia <span class="surname-mod">Slobodianiuk</span></h1>
+            </header>
             <section class="my-info-wrapper">
                 <div class="img-wrap">
                     <img src="img/photo_2022-06-07_14-29-47.jpg" alt="my-photo">
                 </div>
                 <div class="name">
-                    <h1>Illia <span class="surname-mod">Slobodianiuk</span></h1>
-                    <p>Frontend developer</p>
+                    <h2>Frontend developer</h2>
                 </div>
             </section>
 
@@ -103,6 +105,23 @@
                         </ul>
                     </div>
                 </div>
+                <span class="separator"></span>
+
+            </section>
+
+            <section class="contacts languages">
+                <h3>Languages</h3>
+                <ul class="contacts-list languages-list">
+                    <li class="list-item">
+                        <span>English: </span><span class="text-mod">B1</span>
+                    </li>
+                    <li class="list-item">
+                        <span>Ukrainian: </span><span class="text-mod">native</span>
+                    </li>
+                    <li class="list-item">
+                        <span>Russian: </span><span class="text-mod">native</span>
+                    </li>
+                </ul>
             </section>
         </aside>
 
@@ -138,7 +157,7 @@
                     <div class="wrapper">
                         <div class="skill-wrap">
                             <span class="skill-name">HTML/CSS:</span>
-                            <progress max="100" value="90" class="level"></з>
+                            <progress max="100" value="90" class="level"></progress>
                         </div>
     
                         <div class="skill-wrap">
@@ -173,7 +192,7 @@
 
                 <section class="work-experience">
                     <h2>Work experience</h2>
-                    <article class="block-info">
+                    <div class="block-info">
 
                         <article class="block-info">
                             <h3>Valeo</h3>
@@ -192,17 +211,16 @@
                             <span class="year">2020 - 2021</span>
                             <p class="description">Video verification specialist and customer support employee</p>
                         </article>
-                    </article>
+                    </div>
                 </section>
                 <section class="code-examples">
                     <h2>Code examples</h2>
                     <code>
-<pre>
+
     function even_or_odd(number) {
         let result = number % 2 == 0 ? "Even" : "Odd";
         return result;
     }
-</pre>
                     </code>
                 </section>
             </main>
