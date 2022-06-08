@@ -368,3 +368,38 @@ main .code-examples code {
     border-radius: 5px;
     margin-top: 10px;
 }
+
+footer {
+    display: flex;
+    align-items: center;
+    height: 100px;
+    padding: 10px 20px;
+    border-top: 2px solid var(--pre-dark);
+}
+
+footer .rsschool-logo, .git-logo {
+    height: 40px;
+}
+
+footer ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer ul .git-logo:hover, .rsschool-logo:hover {
+    transform: scale(1.5);
+    transition: 500ms;
+}
+
+footer ul .create-date {
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+footer ul .date-mod {
+    color: var(--light-grey);
+}
+
+
